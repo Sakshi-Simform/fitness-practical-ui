@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* app-section */
+#about-app {
+    height: 50rem;
+    width: 117.188rem;
+    display: flex;
+    align-items: center;
+}
+
+.left-information {
+    width: 34.063rem;
+    height: 23.5rem;
+    margin-left: 15rem;
+
+}
+
+.span-head {
+    font-weight: 700;
+    color: #777E90;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.right-image {
+    width: 50rem;
+}
+
+.left-head {
+    font-weight: 700;
+    color: #23262F;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.875em;
+    margin-top: 0.625rem;
+}
+
+.left-btn {
+    margin-top: 1.25rem;
+}
+
+#btn-app {
+    background-color: #FF592C;
+    color: #FFFFFF;
+    padding: 16px 1.5rem;
+    border-radius: 90px;
+    font-weight: 700;
+    width: 9.688rem;
+    height: 3rem;
+    border: none;
+    outline: none;
+}
+
+#btn-app:hover {
+    background-color: #eb6642;
+}
+
+#btn-book {
+    background-color: #FFFFFF;
+    color: #23262F;
+    padding: 16px 1.5rem;
+    border-radius: 90px;
+    font-weight: 700;
+    width: 8.813rem;
+    height: 3rem;
+    border: 1px solid #E6E8EC;
+    outline: none;
+}
+
+#btn-book:hover {
+    border: 1px solid #000000;
+}
+
+#watch {
+    width: 29.105rem;
+    height: 26.938rem;
+    margin-top: -0.5rem;
+    margin-left: 7.708rem;
+}
+
+#glass {}
+
+#bottle {
+    width: 7.669rem;
+    height: 11.414rem;
+    top: 15.563rem;
+    margin-left: -11.1rem;
+    position: absolute;
+    z-index: -1;
+}
+
+#basket-ball {
+  width: 10.688rem;
+    height: 10.813rem;
+    margin-top: 9.188rem;
+    margin-left: -7.125rem;
+    position: absolute;
+}
+
+#ball {
+    width: 3.821rem;
+    height: 3.938rem;
+    margin-top: 18.125rem;
+    margin-left: -371px;
+    position: absolute;
+}
+
+#circle-down {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 8.25rem;
+}
+
+#circle-down:hover {
+    background-color: #E6E8EC;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/* app-logo */
+
+#app-logo-head {
+    width: 117.188rem;
+    height: 8rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    margin-top: 12.5rem;
+}
+
+.logo-desc h3 {
+    width: 24.375rem;
+    height: 1.5rem;
+    font-weight: 600;
+    align-items: center;
+    color: #23262F;
+    margin-left: 29.375rem;
+}
+
+.logo-section {
+    height: 4rem;
+    margin-left: 9.375rem;
+    margin-top: 3.125rem;
+}
+
+/* work-section */
+
+#work-section {
+    width: 117.188rem;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-work-section {
+    width: 70rem;
+    height: 33rem;
+}
+
+.step-desc {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    margin-top: 3.125rem;
+    margin-left: 5rem;
+}
+
+.work-head {
+    font-weight: 700;
+    width: 34rem;
+    height: 34.75rem;
+    font-size: 1.75em;
+    align-items: center;
+    margin-left: 394px;
+}
+
+.work-head-desc {
+    font-weight: 400;
+    color: #353945;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+    margin-left: 20.375rem;
+    margin-top: -28.75rem;
+}
+
+.work-steps {
+    height: 20.25rem;
+}
+
+.steps-logo {
+    display: flex;
+    align-items: center;
+    gap: 4.375em;
+    margin-left: 5rem;
+}
+
+.steps-logo img {
+    width: 3.75rem;
+    margin-top: 3.75rem;
+}
+
+.step {
+    color: #777E90;
+    font-weight: 600;
+    font-size: 0.75em;
+}
+
+.card-head {
+    font-weight: 600;
+    font-size: 1em;
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+    margin-top: 1.563rem;
+}
+
+.card-desc {
+    font-weight: 400;
+    font-size: 0.813em;
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+    margin-top: 1.563rem;
+    color: #353945;
+}
