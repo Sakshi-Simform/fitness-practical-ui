@@ -81,7 +81,6 @@
     margin-left: 7.708rem;
 }
 
-#glass {}
 
 #bottle {
     width: 7.669rem;
@@ -225,4 +224,750 @@ body{
     align-items: center;
     margin-top: 1.563rem;
     color: #353945;
+}
+
+/* booking-section */
+#book-section {
+    width: 117.188rem;
+    height: 63.75rem;
+    background-color: #F4F5F6;
+    padding-top: 8.5rem;
+    padding-bottom: 8.5rem;
+    padding-right: 10rem;
+    padding-left: 5rem;
+}
+
+.booking-left {
+    width: 34.438rem;
+    height: 46.125rem;
+    margin-left: 18.313rem;
+}
+
+.right-booking {
+    width: 34rem;
+    /* height: 748px; */
+    border-radius: 20px;
+    /* color: #FCFCFD; */
+    padding: 1.875rem;
+    margin-left: 54.563rem;
+    margin-top: -46.875rem;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+}
+
+.book-head {
+    font-weight: 700;
+    font-size: 1.75em;
+}
+
+.book-desc {
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #777E90;
+    margin-top: 1.75em;
+}
+
+.book-level {
+    width: 28rem;
+    margin-top: 2.438rem;
+    /* height: 532px; */
+    /* display: flex; */
+    /* align-items: center; */
+}
+
+
+
+.level-one {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 4px;
+}
+
+.desc-content {
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #23262F;
+}
+
+.span-desc {
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #777E90;
+    font-size: 0.875em;
+}
+
+.p-desc {
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #777E90;
+    font-size: 0.875em;
+    margin-top: 3.125rem;
+}
+
+.span-color {
+    color: #90ee90;
+}
+
+.span-bold {
+    font-weight: 500;
+    color: #000000;
+}
+
+#class-btn {
+    background-color: #FF592C;
+    padding: 12px 1.5rem;
+    border-radius: 90px;
+    font-weight: 700;
+    width: 9.5rem;
+    height: 3rem;
+    border: none;
+    outline: none;
+    gap: 10px;
+    margin-top: 0.938rem;
+    margin-left: 20.438rem;
+    position: relative;
+}
+
+#class-btn:hover {
+    background-color: #ef8b70;
+}
+
+
+#line-arrow{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -30px;
+}
+
+#level-two {
+    border: 2px solid #E6E8EC;
+    margin-top: 0.938rem;
+}
+
+#level-three {
+    margin-top: 0.938rem;
+}
+
+#watch-fit {
+    width: 15.688rem;
+    height: 20.188rem;
+    top: 14.125rem;
+    left: 10rem;
+    position: relative;
+}
+
+#tennis-ball {
+    position: absolute;
+    width: 4.678rem;
+    height: 4.653rem;
+    margin-top: 20rem;
+    left: 30.063rem;
+
+}
+
+#basketball {
+    position: absolute;
+    width: 7.061rem;
+    height: 6.061rem;
+    margin-top: 11.938rem;
+    left: 44.321rem;
+
+}
+
+#dumbell {
+    position: absolute;
+    width: 9.434rem;
+    height: 8.819rem;
+    margin-top: 23.438rem;
+    left: 45.41rem;
+}
+
+#elipse-green {
+    width: 1.176rem;
+    height: 2.005rem;
+    margin-top: 10.92rem;
+    margin-left: 16.5rem;
+    position: absolute;
+}
+
+#elipse-blue {
+    width: 0.448rem;
+    height: 0.771rem;
+    margin-top: 32.294rem;
+    margin-left: 25.938rem;
+    position: absolute;
+}
+
+
+
+#elipse-red {
+    width: 0.548rem;
+    height: 0.871rem;
+    margin-top: 21.044rem;
+    margin-left: 29.75rem;
+    position: absolute;
+
+}
+
+#elipse-purple {
+    width: 0.606rem;
+    height: 1.043rem;
+    margin-top: 15.376rem;
+    margin-left: 6.625rem;
+    position: absolute;
+}
+
+/* experience-section */
+
+
+#experiene-content {
+    width: 117.188rem;
+    height: 49rem;
+    gap: 5rem;
+    padding-top: 3.063rem;
+    padding-right: 10rem;
+    padding-left: 10rem;
+}
+
+.experience-head {
+    width: 38.813rem;
+    height: 12.375rem;
+    gap: 2em;
+    margin-left: 17.625rem;
+}
+
+body {
+    /* overflow-x: hidden; */
+}
+
+.cards-section {
+    width: 70rem;
+    height: 18.75rem;
+    gap: 5.188rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 6.25rem;
+}
+
+.head-title {
+    color: #777E90;
+    font-weight: 700;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+.title-desc {
+    font-weight: 700;
+    font-size: 1.75em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.icon-head {
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 1.25rem;
+    margin-top: 1.25rem;
+}
+
+.span-details {
+    font-weight: 400;
+    font-size: 0.875em;
+    font-family: "Poppins", sans-serif;
+}
+
+/* product-section */
+
+#product-content {
+    width: 117.188rem;
+    height: 76.875rem;
+    /* gap: 11.75em; */
+    padding-top: 8.5rem;
+    padding-right: 10rem;
+    padding-bottom: 8.5rem;
+    padding-left: 10rem;
+
+}
+
+.product-head {
+    width: 78.438rem;
+    height: 11.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.title-description {
+    width: 34.25rem;
+    height: 11.25rem;
+    display: flex;
+    /* gap: 20px; */
+    flex-direction: column;
+
+}
+
+.product-desc {
+    /* width: 70rem; */
+    height: 46rem;
+    /* justify-content: space-between; */
+
+}
+
+.product-title {
+    font-weight: 700;
+    font-size: 1em;
+    color: #B1B5C3;
+    width: 7.688rem;
+    height: 1rem;
+    margin-top: -160px;
+}
+
+.title-head {
+    font-weight: 700;
+    font-size: 1.75rem;
+    color: #262626;
+    margin-left: 6.375rem;
+}
+
+.title-desc {
+    font-weight: 400;
+    font-size: 1em;
+    color: #90949B;
+    font-family: "Poppins", sans-serif;
+    margin-left: 6.375rem;
+}
+
+.left-product-desc {
+    width: 16.375rem;
+    height: 40.625rem;
+    gap: 3rem;
+    margin-top: 5.625rem;
+
+}
+
+.right-product {
+    width: 46.25rem;
+    height: 33.25rem;
+    margin-left: 43.75rem;
+    margin-top: -37.688rem;
+}
+
+#weight-plate {
+
+    width: 16.625rem;
+    height: 14.25rem;
+    position: absolute;
+    z-index: 1;
+    margin-left: 5.625rem;
+}
+
+#product-container {
+    width: 27.938rem;
+    height: 30.75rem;
+    left: 11.938rem;
+    border-radius: 24px;
+    position: relative;
+}
+
+.span-details {
+    color: #777E90;
+    font-weight: 400;
+    font-size: 0.875em;
+    font-family: "Poppins", sans-serif;
+}
+
+.icon-logo {
+    margin-top: 20px;
+}
+
+/* trainer-section */
+
+#trainer-content {
+    width: 117.188rem;
+    height: 51.5rem;
+    gap: 10px;
+    padding-right: 10rem;
+    padding-left: 10rem;
+
+}
+
+.trainer-section {
+    width: 70rem;
+    height: 51.5rem;
+    gap: 5rem;
+    margin: auto;
+
+}
+
+.details {
+    margin-top: 1.25rem;
+    width: 24.063rem;
+    height: 1.75rem;
+    /* gap: 12px; */
+    margin-left: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.details a {
+    text-decoration: none;
+    color: #777E90;
+    width: 24.063rem;
+    height: 1.75rem;
+    gap: 12px;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+}
+
+.trainer-intro {
+    width: 34rem;
+    height: 13.5rem;
+    gap: 2.5rem;
+    margin-left: 19.375rem;
+
+}
+
+.trainer-details {
+    width: 70rem;
+    height: 33rem;
+    gap: 4em;
+    margin-top: 1.875rem;
+
+}
+
+.about-expert {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.expert-head {
+    margin-top: 1.25rem;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+#about-expert-second {
+    margin-top: 4.375rem;
+}
+
+#yoga-btn {
+    width: 3.5rem;
+    height: 1.75rem;
+    gap: 10px;
+    padding: 6px 12px;
+    border-radius: 100px;
+    background-color: #353945;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+}
+
+#yoga-btn:hover {
+    background-color: #5f6061;
+}
+
+.introduction {
+    font-weight: 700;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.about-section {
+    font-weight: 400;
+    text-align: center;
+    /* font-family: "Poppins", sans-serif; */
+    color: #353945;
+    margin-top: 1.25rem;
+}
+
+.expert-description {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+.span-style {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 0.875em;
+    text-align: center;
+    color: #777E90;
+    margin-top: 0.938rem;
+}
+
+/* subsribe-section */
+
+#subsribe-content {
+    width: 117.188rem;
+    height: 31.063rem;
+    gap: 10px;
+    padding-right: 10rem;
+    padding-bottom: 8.5rem;
+    padding-left: 10rem;
+    margin-top: 2.813rem;
+
+}
+
+.subscriber-section {
+    width: 70rem;
+    height: 22.563rem;
+    /* gap: 32px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15.625rem;
+}
+
+.subscribe-step {
+    font-weight: 700;
+    font-size: 1.563em;
+    color: #23262F;
+    margin-top: 1.875rem;
+}
+
+.subscribe-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #23262F;
+    margin-bottom: 0.938rem;
+    margin-top: 1.25rem;
+}
+
+.subscribe-desc {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #777E90;
+    font-size: 0.875em;
+    margin-top: 1.25rem;
+}
+
+/* space-section */
+
+#experiene-content {
+    width: 117.188rem;
+    height: 51.75rem;
+    /* gap: 80px; */
+    padding: 8.5rem 10rem;
+    background-color: #F4F5F6;
+
+}
+
+.experience-head {
+    width: 39.75rem;
+    height: 10.75rem;
+    /* gap: 1.25rem; */
+
+}
+
+.cards-section {
+    width: 70rem;
+    height: 19rem;
+    display: flex;
+    align-items: center;
+    /* gap: 24px; */
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.head-title {
+    font-weight: 700;
+    font-size: 1.75em;
+    color: #23262F;
+}
+
+.title-desc {
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #353945;
+    font-size: 1em;
+    margin-top: 1.875rem;
+}
+
+.icon-head-desc {
+    font-weight: 600;
+    color: #23262F;
+    font-size: 1.25em;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    margin-top: 1.875rem;
+}
+
+
+/* choose-plan-section */
+
+#choose-plan-content {
+    width: 117.188rem;
+    height: 68.5rem;
+    gap: 5.625rem;
+    padding-top: 8.5rem;
+    padding-right: 5rem;
+    padding-bottom: 8.5rem;
+    padding-left: 10rem;
+    display: flex;
+    align-items: center;
+}
+
+.left-plan-desc {
+    width: 28rem;
+    height: 34.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* gap: 48px; */
+
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 1.438em;
+    color: #23262F;
+}
+
+.plan-desc {
+    color: #777E90;
+    font-weight: 400;
+    font-size: 0.875em;
+    font-family: "Poppins", sans-serif;
+    margin-top: 1.25rem;
+}
+
+.plan-subscribe {
+    color: #777E90;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin-left: 0.625rem;
+
+}
+
+.plans {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    flex-direction: column;
+    margin-top: 2.5rem;
+    gap: 10px;
+}
+
+.plan-description {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.plan-buttons {
+    width: 19.875rem;
+    height: 3rem;
+    gap: 12px;
+    margin-top: 3.125rem;
+
+}
+
+#choose-btn {
+    width: 8.75rem;
+    height: 3rem;
+    padding: 16px 1.5rem;
+    border-radius: 90px;
+    font-weight: 700;
+    font-size: 0.875em;
+    text-align: center;
+    background-color: #FF592C;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+}
+
+#choose-btn:hover {
+    background-color: #ef8b70;
+}
+
+#demo-btn {
+    background-color: #FFFFFF;
+    color: #23262F;
+    border: 2px solid #E6E8EC;
+    padding: 16px 1.5rem;
+    border-radius: 90px;
+    font-weight: 700;
+    width: 9.688rem;
+    height: 3rem;
+}
+
+#demo-btn:hover {
+    border: 1px solid #000000;
+    background-color: #F4F5F6;
+}
+
+.right-img-section {
+    width: 45rem;
+    height: 51.5rem;
+
+}
+
+#green-ball {
+    width: 4.063rem;
+    height: 3.363rem;
+    margin-top: 5.899rem;
+    margin-left: 14rem;
+    position: absolute;
+    z-index: 1;
+}
+
+#iphone {
+    width: 29.936rem;
+    height: 35.427rem;
+    top: 2.457rem;
+    left: 1.818rem;
+    position: relative;
+}
+
+#apple {
+    width: 5.063rem;
+    height: 78.4 .887rem;
+    position: absolute;
+    margin-top: 13.331rem;
+    margin-left: -3.687rem;
+}
+
+#green-elip{
+    width: 1.176rem;
+    height: 1.65rem;
+    margin-top: 3.983rem;
+    margin-left: 21.563rem;
+    position: absolute;
+}
+
+#blue-elip{
+    width: 0.448rem;
+    height: 0.646rem;
+    margin-top: 32.731rem;
+    margin-left: 26.813rem;
+    position: absolute;
+}
+
+#red-elip{
+    width: 0.448rem;
+    height: 0.583rem;
+    margin-top: 28.669rem;
+    margin-left: 11.188rem;
+    position: absolute;
+}
+
+#purple-elip{
+    width: 0.606rem;
+    height: 0.855rem;
+    margin-top: 14.251rem;
+    margin-left: 2.625rem;
+    position: absolute;
 }
