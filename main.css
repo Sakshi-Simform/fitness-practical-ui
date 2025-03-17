@@ -1,0 +1,969 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* app-section */
+#about-app {
+    height: 50rem;
+    width: 117.188rem;
+    display: flex;
+    align-items: center;
+}
+
+.left-information {
+    width: 34.063rem;
+    height: 23.5rem;
+    margin-left: 15rem;
+}
+
+.span-head {
+    font-weight: 700;
+    color: #777E90;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.right-image {
+    width: 50rem;
+}
+
+.left-head {
+    font-weight: 700;
+    color: #23262F;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.875em;
+    margin-top: 0.625rem;
+}
+
+.left-btn {
+    margin-top: 1.25rem;
+}
+
+#btn-app {
+    background-color: #FF592C;
+    color: #FFFFFF;
+    padding: 16px 1.5rem;
+    border-radius: 90px;
+    font-weight: 700;
+    width: 9.688rem;
+    height: 3rem;
+    border: none;
+    outline: none;
+}
+
+#btn-app:hover {
+    background-color: #eb6642;
+}
+
+#btn-book {
+    background-color: #FFFFFF;
+    color: #23262F;
+    padding: 16px 1.5rem;
+    border-radius: 90px;
+    font-weight: 700;
+    width: 8.813rem;
+    height: 3rem;
+    border: 1px solid #E6E8EC;
+    outline: none;
+}
+
+#btn-book:hover {
+    border: 1px solid #000000;
+}
+
+#watch {
+    width: 29.105rem;
+    height: 26.938rem;
+    margin-top: -0.5rem;
+    margin-left: 7.708rem;
+
+}
+
+
+#bottle {
+    width: 7.669rem;
+    height: 11.414rem;
+    top: 15.563rem;
+    margin-left: -11.1rem;
+    position: absolute;
+    z-index: -1;
+}
+
+#basket-ball {
+    width: 10.688rem;
+    height: 10.813rem;
+    margin-top: 9.188rem;
+    margin-left: -7.125rem;
+    position: absolute;
+}
+
+#ball {
+    width: 3.821rem;
+    height: 3.938rem;
+    margin-top: 18.125rem;
+    margin-left: -371px;
+    position: absolute;
+}
+
+#circle-down {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 8.25rem;
+}
+
+#circle-down:hover {
+    background-color: #E6E8EC;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* app-logo */
+
+#app-logo-head {
+    width: 117.188rem;
+    height: 8rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    margin-top: 12.5rem;
+}
+
+.logo-desc h3 {
+    width: 24.375rem;
+    height: 1.5rem;
+    font-weight: 600;
+    align-items: center;
+    color: #23262F;
+    margin-left: 29.375rem;
+}
+
+.logo-section {
+    height: 4rem;
+    margin-left: 9.375rem;
+    margin-top: 3.125rem;
+}
+
+/* work-section */
+
+#work-section {
+    width: 117.188rem;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -100px;
+}
+
+.main-work-section {
+    width: 70rem;
+    height: 33rem;
+}
+
+.step-desc {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    margin-top: 3.125rem;
+    margin-left: 5rem;
+}
+
+.work-head {
+    font-weight: 700;
+    width: 34rem;
+    height: 34.75rem;
+    font-size: 1.75em;
+    align-items: center;
+    margin-left: 394px;
+}
+
+.work-head-desc {
+    font-weight: 400;
+    color: #353945;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+    margin-left: 22.375rem;
+    margin-top: -28.75rem;
+}
+
+.work-steps {
+    height: 20.25rem;
+}
+
+.steps-logo {
+    display: flex;
+    align-items: center;
+    gap: 4.375em;
+    margin-left: 5rem;
+}
+
+.steps-logo img {
+    width: 3.75rem;
+    margin-top: 3.75rem;
+}
+
+.step {
+    color: #777E90;
+    font-weight: 600;
+    font-size: 0.75em;
+}
+
+.card-head {
+    font-weight: 600;
+    font-size: 1em;
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+    margin-top: 1.563rem;
+}
+
+.card-desc {
+    font-weight: 400;
+    font-size: 0.813em;
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+    margin-top: 1.563rem;
+    color: #353945;
+}
+
+/* booking-section */
+#book-section {
+    width: 117.188rem;
+    height: 63.75rem;
+    background-color: #F4F5F6;
+    padding-top: 8.5rem;
+    padding-bottom: 8.5rem;
+    padding-right: 10rem;
+    padding-left: 5rem;
+}
+
+.booking-left {
+    width: 34.438rem;
+    height: 46.125rem;
+    margin-left: 7.313rem;
+
+}
+
+.right-booking {
+    width: 32rem;
+    height: 43.625rem;
+    border-radius: 20px;
+    box-shadow: 0px 64px 64px -48px rgba(15, 15, 15, 0.829);
+    padding: 1.875rem;
+    margin-left: 50.563rem;
+    margin-top: -46.875rem;
+}
+
+.book-head {
+    font-weight: 700;
+    font-size: 1.75em;
+    width: 448px;
+    height: 56px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 42px;
+}
+
+.book-desc {
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #777E90;
+    margin-top: 1.75em;
+}
+
+.book-level {
+    width: 28rem;
+    margin-top: 2.438rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.booking-desc {
+    width: 448px;
+    height: 483px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.level-one {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 4px;
+}
+
+.desc-content {
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #23262F;
+}
+
+.span-desc {
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #777E90;
+    font-size: 0.875em;
+}
+
+.p-desc {
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #777E90;
+    font-size: 0.875em;
+    margin-top: 3.125rem;
+}
+
+.span-color {
+    color: #90ee90;
+}
+
+.span-bold {
+    font-weight: 500;
+    color: #000000;
+}
+
+#class-btn {
+    background-color: #FF592C;
+    padding: 12px 1.5rem;
+    border-radius: 90px;
+    font-weight: 700;
+    width: 9.5rem;
+    height: 3rem;
+    border: none;
+    outline: none;
+    gap: 10px;
+    margin-top: 0.938rem;
+    margin-left: 17.438rem;
+    position: relative;
+}
+
+#class-btn:hover {
+    background-color: #ef8b70;
+}
+
+
+#line-arrow {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -30px;
+}
+
+#level-two {
+    border: 2px solid #E6E8EC;
+    margin-top: 0.938rem;
+}
+
+#level-three {
+    margin-top: 0.938rem;
+}
+
+#watch-fit {
+    width: 15.688rem;
+    height: 20.188rem;
+    top: 14.125rem;
+    left: 10rem;
+    position: relative;
+}
+
+#tennis-ball {
+    position: absolute;
+    width: 4.678rem;
+    height: 4.653rem;
+    margin-top: 20rem;
+    margin-left: -8.937rem;
+
+}
+
+#basketball {
+    position: absolute;
+    width: 7.061rem;
+    height: 6.061rem;
+    margin-top: 11.938rem;
+    margin-left: 5.321rem
+}
+
+#dumbell {
+    position: absolute;
+    width: 9.434rem;
+    height: 8.819rem;
+    margin-top: 23.438rem;
+    margin-left: 7.41rem;
+}
+
+#elipse-green {
+    width: 1.176rem;
+    height: 2.005rem;
+    margin-top: 10.92rem;
+    margin-left: 16.5rem;
+    position: absolute;
+}
+
+#elipse-blue {
+    width: 0.448rem;
+    height: 0.771rem;
+    margin-top: 32.294rem;
+    margin-left: 25.938rem;
+    position: absolute;
+}
+
+
+
+#elipse-red {
+    width: 0.548rem;
+    height: 0.871rem;
+    margin-top: 21.044rem;
+    margin-left: 29.75rem;
+    position: absolute;
+
+}
+
+#elipse-purple {
+    width: 0.606rem;
+    height: 1.043rem;
+    margin-top: 15.376rem;
+    margin-left: 6.625rem;
+    position: absolute;
+}
+
+/* experience-section */
+
+
+#experience {
+    width: 117.188rem;
+    height: 49rem;
+    gap: 5rem;
+    padding-top: 3.063rem;
+    padding-right: 10rem;
+    padding-left: 10rem;
+    background-color: #FCFCFD;
+}
+
+.experience-head {
+    width: 38.813rem;
+    height: 12.375rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    margin-left: 17.625rem;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.cards-section {
+    width: 70rem;
+    height: 18.75rem;
+    gap: 5.188rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 6.25rem;
+}
+
+.experince-head-title {
+    color: #777E90;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 14px;
+}
+
+.title-desc-head {
+    font-weight: 700;
+    font-size: 1.75em;
+    text-align: center;
+}
+
+.icon-head {
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 1.25rem;
+    margin-top: 1.25rem;
+}
+
+.span-details {
+    font-weight: 400;
+    font-size: 0.875em;
+    font-family: "Poppins", sans-serif;
+}
+
+/* product-section */
+
+#product-content {
+    width: 117.188rem;
+    height: 76.875rem;
+    padding-top: 8.5rem;
+    padding-right: 10rem;
+    padding-bottom: 8.5rem;
+    padding-left: 10rem;
+    background-color: #FCFCFD;
+
+}
+
+.product-head {
+    width: 78.438rem;
+    height: 11.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.title-description {
+    width: 34.25rem;
+    height: 11.25rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.product-desc {
+    height: 46rem;
+}
+
+.product-title {
+    font-weight: 700;
+    font-size: 1em;
+    color: #B1B5C3;
+    width: 7.688rem;
+    height: 1rem;
+    margin-top: -160px;
+}
+
+.title-head {
+    font-weight: 700;
+    font-size: 1.75rem;
+    color: #262626;
+    margin-left: 4.375rem;
+}
+
+.title-desc-product {
+    font-weight: 400;
+    font-size: 1em;
+    color: #90949B;
+    font-family: "Poppins", sans-serif;
+    margin-left: 4.375rem;
+    margin-top: 3rem;
+}
+
+.left-product-desc {
+    width: 16.375rem;
+    height: 40.625rem;
+    gap: 3rem;
+    margin-top: 5.625rem;
+
+}
+
+.right-product {
+
+    margin-left: 36.75rem;
+    margin-top: -45.688rem;
+}
+
+#weight-plate {
+
+    width: 16.625rem;
+    height: 14.25rem;
+    position: absolute;
+    z-index: 1;
+    margin-left: 5.625rem;
+}
+
+#product-container {
+    width: 27.938rem;
+    height: 30.75rem;
+    left: 11.938rem;
+    border-radius: 24px;
+    position: relative;
+}
+
+.span-details {
+    color: #777E90;
+    font-weight: 400;
+    font-size: 0.875em;
+    font-family: "Poppins", sans-serif;
+}
+
+.icon-logo {
+    margin-top: 20px;
+}
+
+/* trainer-section */
+
+#trainer-content {
+    width: 117.188rem;
+    height: 51.5rem;
+    gap: 10px;
+    padding-right: 10rem;
+    padding-left: 10rem;
+
+}
+
+.trainer-section {
+    width: 70rem;
+    height: 51.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+    margin-left: 100px;
+
+}
+
+.details {
+    margin-top: 1.25rem;
+    width: 24.063rem;
+    height: 1.75rem;
+    margin-left: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.details a {
+    text-decoration: none;
+    color: #777E90;
+    width: 24.063rem;
+    height: 1.75rem;
+}
+
+.trainer-intro {
+    width: 34rem;
+    height: 13.5rem;
+    gap: 2.5rem;
+    margin-left: -2.625rem;
+
+}
+
+.trainer-details {
+    width: 70rem;
+    height: 33rem;
+    gap: 4em;
+    margin-top: 1.875rem;
+
+}
+
+.about-expert {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.expert-head {
+    margin-top: 1.25rem;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+#about-expert-second {
+    margin-top: 4.375rem;
+}
+
+#yoga-btn {
+    width: 3.5rem;
+    height: 1.75rem;
+    gap: 10px;
+    padding: 6px 12px;
+    border-radius: 100px;
+    background-color: #353945;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+}
+
+#yoga-btn:hover {
+    background-color: #5f6061;
+}
+
+.introduction {
+    font-weight: 700;
+    font-size: 1.25rem;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.about-section {
+    font-weight: 400;
+    text-align: center;
+    color: #353945;
+    margin-top: 1.65rem;
+    margin-left: 2.625rem;
+}
+
+.expert-description {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+.span-style {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 0.875em;
+    text-align: center;
+    color: #777E90;
+    margin-top: 0.938rem;
+}
+
+/* subsribe-section */
+
+#subsribe-content {
+    width: 117.188rem;
+    height: 31.063rem;
+    padding-right: 10rem;
+    padding-bottom: 8.5rem;
+    padding-left: 3rem;
+    margin-top: 9.813rem;
+
+}
+
+.subscriber-section {
+    width: 70rem;
+    height: 22.563rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15.625rem;
+}
+
+.subscribe-step {
+    font-weight: 700;
+    font-size: 1.563em;
+    color: #23262F;
+    margin-top: 1.875rem;
+}
+
+.subscribe-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #23262F;
+    margin-bottom: 0.938rem;
+    margin-top: 1.25rem;
+}
+
+.subscribe-desc {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #777E90;
+    font-size: 0.875em;
+    margin-top: 1.25rem;
+}
+
+/* space-section */
+
+#experiene-content {
+    width: 117.188rem;
+    height: 51.75rem;
+    padding: 8.5rem 10rem;
+    background-color: #F4F5F6;
+
+}
+
+.experience-head {
+    width: 39.75rem;
+    height: 10.75rem;
+}
+
+.cards-section {
+    width: 70rem;
+    height: 19rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.head-title {
+    font-weight: 700;
+    font-size: 1.75em;
+    color: #23262F;
+}
+
+.title-desc {
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #353945;
+    font-size: 1em;
+    margin-top: 1.875rem;
+    margin-left: 5px;
+}
+
+.icon-head-desc {
+    font-weight: 600;
+    color: #23262F;
+    font-size: 1.25em;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    margin-top: 1.875rem;
+}
+
+
+/* choose-plan-section */
+
+#choose-plan-content {
+    width: 117.188rem;
+    height: 68.5rem;
+    gap: 5.625rem;
+    padding-top: 8.5rem;
+    padding-right: 5rem;
+    padding-bottom: 8.5rem;
+    padding-left: 10rem;
+    display: flex;
+    align-items: center;
+}
+
+.left-plan-desc {
+    width: 28rem;
+    height: 34.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 3.125rem;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 1.438em;
+    color: #23262F;
+}
+
+.plan-desc {
+    color: #777E90;
+    font-weight: 400;
+    font-size: 0.875em;
+    font-family: "Poppins", sans-serif;
+    margin-top: 1.25rem;
+}
+
+.plan-subscribe {
+    color: #777E90;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin-left: 0.625rem;
+
+}
+
+.plans {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5rem;
+    gap: 10px;
+}
+
+.plan-description {
+    display: flex;
+}
+
+.plan-buttons {
+    width: 19.875rem;
+    height: 3rem;
+    gap: 12px;
+    margin-top: 3.125rem;
+
+}
+
+#choose-btn {
+    width: 8.75rem;
+    height: 3rem;
+    padding: 16px 1.5rem;
+    border-radius: 90px;
+    font-weight: 700;
+    font-size: 0.875em;
+    text-align: center;
+    background-color: #FF592C;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+}
+
+#choose-btn:hover {
+    background-color: #ef8b70;
+}
+
+#demo-btn {
+    background-color: #FFFFFF;
+    color: #23262F;
+    border: 2px solid #E6E8EC;
+    padding: 16px 1.5rem;
+    border-radius: 90px;
+    font-weight: 700;
+    width: 9.688rem;
+    height: 3rem;
+}
+
+#demo-btn:hover {
+    border: 1px solid #000000;
+    background-color: #F4F5F6;
+}
+
+.right-img-section {
+    width: 45rem;
+    height: 51.5rem;
+    margin-left: -66px;
+}
+
+#green-ball {
+    width: 4.063rem;
+    height: 3.363rem;
+    margin-top: 5.899rem;
+    margin-left: 14rem;
+    position: absolute;
+    z-index: 1;
+}
+
+#iphone {
+    width: 29.936rem;
+    height: 35.427rem;
+    top: 2.457rem;
+    left: 1.818rem;
+    position: relative;
+}
+
+#apple {
+    width: 5.063rem;
+    height: 78.4 .887rem;
+    position: absolute;
+    margin-top: 13.331rem;
+    margin-left: -3.687rem;
+}
+
+#green-elip {
+    width: 1.176rem;
+    height: 1.65rem;
+    margin-top: 3.983rem;
+    margin-left: 21.563rem;
+    position: absolute;
+}
+
+#blue-elip {
+    width: 0.448rem;
+    height: 0.646rem;
+    margin-top: 32.731rem;
+    margin-left: 26.813rem;
+    position: absolute;
+}
+
+#red-elip {
+    width: 0.448rem;
+    height: 0.583rem;
+    margin-top: 28.669rem;
+    margin-left: 11.188rem;
+    position: absolute;
+}
+
+#purple-elip {
+    width: 0.606rem;
+    height: 0.855rem;
+    margin-top: 14.251rem;
+    margin-left: 2.625rem;
+    position: absolute;
+}
