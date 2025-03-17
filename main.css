@@ -16,7 +16,6 @@
     width: 34.063rem;
     height: 23.5rem;
     margin-left: 15rem;
-
 }
 
 .span-head {
@@ -79,6 +78,7 @@
     height: 26.938rem;
     margin-top: -0.5rem;
     margin-left: 7.708rem;
+
 }
 
 
@@ -92,7 +92,7 @@
 }
 
 #basket-ball {
-  width: 10.688rem;
+    width: 10.688rem;
     height: 10.813rem;
     margin-top: 9.188rem;
     margin-left: -7.125rem;
@@ -117,7 +117,7 @@
     background-color: #E6E8EC;
 }
 
-body{
+body {
     overflow-x: hidden;
 }
 
@@ -242,6 +242,7 @@ body{
     width: 34.438rem;
     height: 46.125rem;
     margin-left: 7.313rem;
+
 }
 
 .right-booking {
@@ -262,9 +263,7 @@ body{
     margin-left: 40px;
     display: flex;
     align-items: center;
-    
     margin-top: 42px;
-
 }
 
 .book-desc {
@@ -277,22 +276,18 @@ body{
 .book-level {
     width: 28rem;
     margin-top: 2.438rem;
-    /* height: 532px; */
     display: flex;
     flex-direction: column;
     gap: 2rem;
-
 }
 
-.booking-desc{
+.booking-desc {
     width: 448px;
-height: 483px;
-display: flex;
-align-items: center;
-
-flex-direction: column;
-gap: 20px;
-
+    height: 483px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .level-one {
@@ -352,7 +347,7 @@ gap: 20px;
 }
 
 
-#line-arrow{
+#line-arrow {
     position: absolute;
     margin-top: 30px;
     margin-left: -30px;
@@ -438,7 +433,7 @@ gap: 20px;
 /* experience-section */
 
 
-#experience{
+#experience {
     width: 117.188rem;
     height: 49rem;
     gap: 5rem;
@@ -453,14 +448,13 @@ gap: 20px;
     height: 12.375rem;
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
     flex-direction: column;
     gap: 1em;
     margin-left: 17.625rem;
 }
 
 body {
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 .cards-section {
@@ -485,11 +479,6 @@ body {
     font-weight: 700;
     font-size: 1.75em;
     text-align: center;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start; */
-
 }
 
 .icon-head {
@@ -510,7 +499,6 @@ body {
 #product-content {
     width: 117.188rem;
     height: 76.875rem;
-    /* gap: 11.75em; */
     padding-top: 8.5rem;
     padding-right: 10rem;
     padding-bottom: 8.5rem;
@@ -532,16 +520,12 @@ body {
     width: 34.25rem;
     height: 11.25rem;
     display: flex;
-    /* gap: 20px; */
     flex-direction: column;
 
 }
 
 .product-desc {
-    /* width: 70rem; */
     height: 46rem;
-    /* justify-content: space-between; */
-
 }
 
 .product-title {
@@ -557,15 +541,16 @@ body {
     font-weight: 700;
     font-size: 1.75rem;
     color: #262626;
-    margin-left: 6.375rem;
+    margin-left: 4.375rem;
 }
 
-.title-desc {
+.title-desc-product {
     font-weight: 400;
     font-size: 1em;
     color: #90949B;
     font-family: "Poppins", sans-serif;
-    margin-left: 6.375rem;
+    margin-left: 4.375rem;
+    margin-top: 3rem;
 }
 
 .left-product-desc {
@@ -577,7 +562,7 @@ body {
 }
 
 .right-product {
-   
+
     margin-left: 36.75rem;
     margin-top: -45.688rem;
 }
@@ -647,10 +632,6 @@ body {
     color: #777E90;
     width: 24.063rem;
     height: 1.75rem;
-    gap: 12px;
-    /* display: flex;
-    align-items: center;
-    justify-content: space-between; */
 }
 
 .trainer-intro {
@@ -712,10 +693,9 @@ body {
 .about-section {
     font-weight: 400;
     text-align: center;
-    /* font-family: "Poppins", sans-serif; */
     color: #353945;
     margin-top: 1.65rem;
-    margin-left:2.625rem;
+    margin-left: 2.625rem;
 }
 
 .expert-description {
@@ -739,7 +719,6 @@ body {
 #subsribe-content {
     width: 117.188rem;
     height: 31.063rem;
-    gap: 10px;
     padding-right: 10rem;
     padding-bottom: 8.5rem;
     padding-left: 3rem;
@@ -750,7 +729,6 @@ body {
 .subscriber-section {
     width: 70rem;
     height: 22.563rem;
-    /* gap: 32px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -785,7 +763,6 @@ body {
 #experiene-content {
     width: 117.188rem;
     height: 51.75rem;
-    /* gap: 80px; */
     padding: 8.5rem 10rem;
     background-color: #F4F5F6;
 
@@ -794,8 +771,6 @@ body {
 .experience-head {
     width: 39.75rem;
     height: 10.75rem;
-    /* gap: 1.25rem; */
-
 }
 
 .cards-section {
@@ -803,7 +778,6 @@ body {
     height: 19rem;
     display: flex;
     align-items: center;
-    /* gap: 24px; */
     justify-content: space-between;
     margin-top: 5rem;
 }
@@ -853,8 +827,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    /* gap: 48px; */
-
+    margin-left: 3.125rem;
 }
 
 .plan-title {
@@ -881,8 +854,6 @@ body {
 
 .plans {
     display: flex;
-    /* align-items: center; */
-    /* justify-content: space-between; */
     flex-direction: column;
     margin-top: 2.5rem;
     gap: 10px;
@@ -890,7 +861,6 @@ body {
 
 .plan-description {
     display: flex;
-    /* justify-content: space-between; */
 }
 
 .plan-buttons {
@@ -966,7 +936,7 @@ body {
     margin-left: -3.687rem;
 }
 
-#green-elip{
+#green-elip {
     width: 1.176rem;
     height: 1.65rem;
     margin-top: 3.983rem;
@@ -974,7 +944,7 @@ body {
     position: absolute;
 }
 
-#blue-elip{
+#blue-elip {
     width: 0.448rem;
     height: 0.646rem;
     margin-top: 32.731rem;
@@ -982,7 +952,7 @@ body {
     position: absolute;
 }
 
-#red-elip{
+#red-elip {
     width: 0.448rem;
     height: 0.583rem;
     margin-top: 28.669rem;
@@ -990,7 +960,7 @@ body {
     position: absolute;
 }
 
-#purple-elip{
+#purple-elip {
     width: 0.606rem;
     height: 0.855rem;
     margin-top: 14.251rem;
